@@ -15,3 +15,29 @@ body {
   height: calc(100vh - 72px);
   background-image: url("../images/background_blur.jpg");
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
+  .card-init {
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: -15px;
+    background-image: url("../images/caminho-removebg-preview.png");
+  }
+  
+  .card-middle {
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: -40px;
+    background-image: url("../images/caminho-removebg-preview.png");
+  }
+  
+  .card-end {
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position-y: 135px;
+    background-position-x: -90px;
+    background-image: url("../images/caminho-removebg-preview.png");
+  }
+}
